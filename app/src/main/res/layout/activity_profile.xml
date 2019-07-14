@@ -16,13 +16,14 @@
             android:layout_marginStart="24dp" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/txtName" android:contentDescription="Profile Picture"/>
     <TextView
-            android:text="Name : Masida Gondwe"
+            android:text="Name :  Masida Gondwe"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/txtName"
             app:layout_constraintTop_toBottomOf="@+id/imgMyProfile" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="32dp"/>
+            android:layout_marginEnd="16dp" app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="32dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
     <TextView
             android:text="Track: Android "
             android:layout_width="0dp"
@@ -30,28 +31,32 @@
             android:id="@+id/txtTrack" android:layout_marginTop="24dp"
             app:layout_constraintTop_toBottomOf="@+id/txtName" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" app:layout_constraintHorizontal_bias="0.0"/>
+            android:layout_marginEnd="16dp" app:layout_constraintHorizontal_bias="0.0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
     <TextView
             android:text="Country: Zambia"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/txtCountry" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
-            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/txtTrack"/>
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/txtTrack"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
     <TextView
             android:text="Email: masidahgondwe@gmail.com"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/txtEmail" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
-            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/txtCountry"/>
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/txtCountry"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
     <TextView
             android:text="Phone Number: +260961300539"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView5" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
-            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/txtEmail"/>
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/txtEmail"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
     <TextView
             android:text="Slack: @masie"
             android:layout_width="0dp"
@@ -59,5 +64,5 @@
             android:id="@+id/txtSlack" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
             android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/textView5"
-    />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
 </android.support.constraint.ConstraintLayout>
