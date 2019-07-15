@@ -9,6 +9,7 @@
 
 
 
+
     <WebView
             android:layout_width="0dp"
             android:layout_height="0dp" app:layout_constraintEnd_toEndOf="parent"
@@ -17,6 +18,15 @@
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="16dp"
             app:layout_constraintTop_toTopOf="parent" android:id="@+id/webviewALCPage"/>
 
-
+    <ProgressBar
+            android:id="@+id/page_progress_bar"
+            android:layout_width="56dp"
+            android:layout_height="56dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="@+id/webviewALCPage"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toTopOf="@+id/webviewALCPage"
+            app:layout_constraintBottom_toBottomOf="@+id/webviewALCPage" android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" android:progressTint="@color/colorPrimary"
+            android:progressDrawable="@color/colorPrimary" android:progress="@android:integer/config_longAnimTime"/>
 
 </android.support.constraint.ConstraintLayout>

@@ -20,11 +20,11 @@ class ALCDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_alcdetail)
 
-       // setSupportActionBar(toolbar);
-       // supportActionBar!!.setDisplayHomeAsUpEnabled(true);
+       // setSupportActionBar(toolbar)
+       // supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
         // Get the web view settings instance
-        val settings = webviewALCPage.settings;
+        val settings = webviewALCPage.settings
 
         // Enable java script in web view
         settings.javaScriptEnabled = true
