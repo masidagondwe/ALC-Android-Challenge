@@ -13,13 +13,15 @@
         <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                s
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ALCDetailActivity">
+        <activity android:name=".ALCDetailActivity"
+                  android:label="About ALC">
         </activity>
-        <activity android:name=".ProfileActivity">
+        <activity android:name=".ProfileActivity"
+                  android:label="My Profile">
         </activity>
     </application>
 

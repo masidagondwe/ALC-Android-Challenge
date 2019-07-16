@@ -14,7 +14,8 @@
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="24dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="24dp" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/txtName" android:contentDescription="Profile Picture"/>
+            app:layout_constraintBottom_toTopOf="@+id/txtName" android:contentDescription="Profile Picture"
+            tools:srcCompat="@drawable/profile2"/>
     <TextView
             android:text="Name :  Masida Gondwe"
             android:layout_width="0dp"
